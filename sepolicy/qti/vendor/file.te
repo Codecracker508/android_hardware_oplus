@@ -31,6 +31,9 @@ type nvram_socket, file_type;
 # Performance
 type vendor_proc_oplus_scheduler, fs_type, proc_type;
 
+# Pogo pin keyboard
+type vendor_proc_oplus_pogo_keyboard, fs_type, proc_type;
+
 # Reserve
 type oplus_reserve_connectivity_file, file_type;
 type oplus_reserve_connectivity_felicalock, file_type;
