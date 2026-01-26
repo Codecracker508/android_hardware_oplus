@@ -124,7 +124,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.charger</name>
-        <version>1-9</version>
+        <version>1-10</version>
         <interface>
             <name>ICharger</name>
             <instance>default</instance>
@@ -299,6 +299,14 @@
         <version>1-2</version>
         <interface>
             <name>ISatelliteZbService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.secure_element</name>
+        <version>1</version>
+        <interface>
+            <name>ISecureElement</name>
             <instance>default</instance>
         </interface>
     </hal>
